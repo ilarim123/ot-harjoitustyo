@@ -12,4 +12,3 @@ Sovelluksella on vain yksi käyttäjärooli eli tavallinen käyttäjä.
 - Kun kaikki tehtäväsarjan tehtävät on tehty, niin käyttäjä saa siitä suoritusmerkinnän
 - Tehtävissä käytetyt arvot ovat satunnaisesti generoituja jotta samat kysymykset eivät tule aina uudestaan
 - Käyttäjä voi kirjautua ulos
--  + muuta sen mukaan kun lisää ideoita tulee
