@@ -1,4 +1,8 @@
-# Dokumentaatio
+# Matematiikan tehtäväsovellus
+
+Sovellus generoi käyttäjälle tehtäviä joihin tulee syöttää oikea vastaus. Tällä hetkelle sovelluksen ainoa toiminnallisuus on esittää jokaisella suorituskerralla yksi lauseke, johon käyttäjä antaa vastauksen ja ohjelma vastaa oliko vastaus oikein vai ei.
+
+## Dokumentaatio
 
 [Vaatimusmäärittely](https://github.com/ilarim123/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md)
 
