@@ -1,4 +1,4 @@
-# **Harjoitustyö ei ole vielä ollenkaan viikon 4 tavoitteiden mukainen, pahoittelen! Ei siis tarvitse edes kokeilla**
+# **Harjoitustyö ei ole vielä ollenkaan viikon 4 tavoitteiden mukainen, pahoittelen! Ei siis tarvitse edes kokeilla, toiminnallisuus ei ole edennyt**
 
 
 ----------------------------------------------
