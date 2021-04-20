@@ -1,14 +1,19 @@
-# Matematiikan tehtäväsovellus
+# **Harjoitustyö ei ole vielä ollenkaan viikon 4 tavoitteiden mukainen, pahoittelen! Ei siis tarvitse edes kokeilla**
+
+
+----------------------------------------------
+
+## Matematiikan tehtäväsovellus
 
 Sovellus generoi käyttäjälle tehtäviä joihin tulee syöttää oikea vastaus. Tällä hetkelle sovelluksen ainoa toiminnallisuus on esittää jokaisella suorituskerralla yksi lauseke, johon käyttäjä antaa vastauksen ja ohjelma vastaa oliko vastaus oikein vai ei.
 
-## Dokumentaatio
+###  Dokumentaatio
 
 [Vaatimusmäärittely](https://github.com/ilarim123/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md)
 
 [Työaikakirjanpito](https://github.com/ilarim123/ot-harjoitustyo/blob/master/dokumentaatio/tuntikirjanpito.md)
 
-## Komentorivitoiminnot
+### Komentorivitoiminnot
 
 Ohjelma suoritetaan komennolla:
 
