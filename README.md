@@ -1,11 +1,6 @@
-# **Harjoitustyö ei ole vielä ollenkaan viikon 4 tavoitteiden mukainen, pahoittelen! Ei siis tarvitse edes kokeilla, toiminnallisuus ei ole edennyt**
+# Matematiikan tehtäväsovellus
 
-
-----------------------------------------------
-
-## Matematiikan tehtäväsovellus
-
-Sovellus generoi käyttäjälle tehtäviä joihin tulee syöttää oikea vastaus. Tällä hetkellä sovelluksen ainoa toiminnallisuus on esittää jokaisella suorituskerralla yksi lauseke, johon käyttäjä antaa vastauksen ja ohjelma vastaa oliko vastaus oikein vai ei.
+Sovellus generoi käyttäjälle tehtäviä joihin tulee syöttää oikea vastaus. Tällä hetkellä sovelluksen ainoa toiminnallisuus on valita yksi kolmesta tehtäväsarjasta ja ratkoa niiden tehtäviä niin monta kertaa kunnes valitsee toiminnon joka sulkee ohjelman.
 
 ###  Dokumentaatio
 
