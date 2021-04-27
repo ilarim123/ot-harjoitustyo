@@ -41,8 +41,8 @@ class MathGenerator():
     def check_answer(self, answer1: int, answer2: int):
         if answer1 == answer2:
             return True
-        elif answer1 != answer2:
-            return False
+
+        return False
 
     def task_set(self, type: str):
         remaining = 5
@@ -118,7 +118,7 @@ class MathGenerator():
         print("Matematiikan tehtäväsovellus")
         print("-------------------------------------")
         if self.loggedin == True:
-            print(f"Olet kirjautunut sisään")
+            print("Olet kirjautunut sisään")
         else:
             print("Et ole kirjautunut sisään")
         print("Toiminnot:")
@@ -141,8 +141,8 @@ if __name__ == "__main__":
 
     while True:
         Generator.print_actions()
-        action = Generator.select_action()
-        if action == "close":
+        select = Generator.select_action()
+        if select == "close":
             break
 
 

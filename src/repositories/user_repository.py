@@ -43,8 +43,8 @@ class UserRepository:
                     correctpassword = parts[1]
                     if password == correctpassword:
                         return True
-                    else:
-                        return False
+
+                    return False
 
 
 
