@@ -1,6 +1,6 @@
 # Matematiikan tehtäväsovellus
 
-Sovelluksessa ratkaistaan yksinkertaisia matemaattisia laskuja. Tällä hetkellä sovelluksessa on mahdollista valita kolmesta tehtäväsarjasta yksi jonka tehtäviä ratkaisee. Sovelluksessa voi myös luoda uuden käyttäjän sekä kirjautua sisään ja kirjautua ulos, mutta sisäänkirjautuminen vaikuttaa toistaiseksi vain tulostettuun tekstiin eikä sillä ole mitään erikoista toiminnallisuutta. 
+Sovelluksessa ratkaistaan yksinkertaisia matemaattisia tehtäviä. Tällä hetkellä sovelluksessa on mahdollista valita kolmesta tehtäväsarjasta yksi jonka tehtäviä ratkaisee. Sovelluksessa voi myös luoda uuden käyttäjän sekä kirjautua sisään ja kirjautua ulos, mutta sisäänkirjautuminen vaikuttaa toistaiseksi vain tulostettuun tekstiin eikä sillä ole mitään erikoista toiminnallisuutta. 
 
 Sovelluksesta puuttuu vielä mahdollisuus kerätä käyttäjäkohtaisia pisteitä tehtävistä ja saada tehdyistä tehtäväsarjoista suoritusmerkintä. Tarkoituksena olisi myös luoda graafinen käyttöliittymä sekä mahdollisesti jotain muita toiminnallisuuksia. 
 
