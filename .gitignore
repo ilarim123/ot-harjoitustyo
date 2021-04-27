@@ -6,4 +6,5 @@
 .pytest_cache
 __pycache__
 htmlcov
-data/database.sqlite
+data/users.csv
+data/test-users.csv
