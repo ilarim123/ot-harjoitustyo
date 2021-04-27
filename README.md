@@ -1,14 +1,20 @@
 # Matematiikan tehtäväsovellus
 
-Sovellus generoi käyttäjälle tehtäviä joihin tulee syöttää oikea vastaus. Tällä hetkellä sovelluksen ainoa toiminnallisuus on valita yksi kolmesta tehtäväsarjasta ja ratkoa niiden tehtäviä niin monta kertaa kunnes valitsee toiminnon joka sulkee ohjelman.
+Sovelluksessa ratkaistaan yksinkertaisia matemaattisia laskuja. Tällä hetkellä sovelluksessa on mahdollista valita kolmesta tehtäväsarjasta yksi jonka tehtäviä ratkaisee. Sovelluksessa voi myös luoda uuden käyttäjän sekä kirjautua sisään ja kirjautua ulos, mutta sisäänkirjautuminen on toistaiseksi kosmeettista eikä sillä ole mitään erikoista toiminnallisuutta. 
 
-###  Dokumentaatio
+Sovelluksesta puuttuu vielä mahdollisuus kerätä käyttäjäkohtaisia pisteitä tehtävistä ja saada tehdyistä tehtäväsarjoista suoritusmerkintä. Tarkoituksena olisi myös luoda graafinen käyttöliittymä sekä mahdollisesti jotain muita toiminnallisuuksia. 
 
-[Vaatimusmäärittely](https://github.com/ilarim123/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md)
+Sovelluksen testien haarautumakattavuus on vielä tämänhetkisiä vaatimuksia alhaisempi, ja arkkitehtuurikuvausta ei vielä ole.
 
-[Työaikakirjanpito](https://github.com/ilarim123/ot-harjoitustyo/blob/master/dokumentaatio/tuntikirjanpito.md)
+##  Dokumentaatio
 
-### Komentorivitoiminnot
+[Vaatimusmäärittely](https://github.com/ilrm123/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md)
+
+[Työaikakirjanpito](https://github.com/ilrm123/ot-harjoitustyo/blob/master/dokumentaatio/tuntikirjanpito.md)
+
+[Arkkitehtuurikuvaus](https://github.com/ilrm123/ot-harjoitustyo/blob/master/dokumentaatio/arkkitehtuuri.md)
+
+## Komentorivitoiminnot
 
 Ohjelma suoritetaan komennolla:
 
@@ -26,3 +32,7 @@ Ohjelman testikattavuusraportti generoidaan komennolla:
 poetry run invoke coverage-report
 ```
 
+Pylint-tarkistukset suoritetaan komennolla:
+```bash
+poetry run invoke lint
+```
