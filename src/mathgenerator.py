@@ -1,10 +1,12 @@
 from random import randint
 
+
+
 class MathGenerator():
 
     def gen_addition_task(self):
-        value1 = randint(10,150)
-        value2 = randint(10,150)
+        value1 = randint(10, 150)
+        value2 = randint(10, 150)
 
         taskstr = str(f"{value1} + {value2}")
         answer = value1 + value2
@@ -12,8 +14,8 @@ class MathGenerator():
         return (taskstr, answer)
 
     def gen_substraction_task(self):
-        value1 = randint(10,150)
-        value2 = randint(10,150)
+        value1 = randint(10, 150)
+        value2 = randint(10, 150)
 
         taskstr = str(f"{value1} - {value2}")
         answer = value1 - value2
@@ -21,8 +23,8 @@ class MathGenerator():
         return (taskstr, answer)
 
     def gen_multiplication_task(self):
-        value1 = randint(2,20)
-        value2 = randint(2,20)
+        value1 = randint(2, 20)
+        value2 = randint(2, 20)
 
         taskstr = str(f"{value1} * {value2}")
         answer = value1*value2
@@ -64,13 +66,17 @@ class MathGenerator():
         try:
             action = int(input("Syötä toiminnon numero: "))
             if action == 1:
-                self.task_set("+")
+                pass
             elif action == 2:
-                self.task_set("-")
+                pass
             elif action == 3:
-                self.task_set("*")
+                self.task_set("+")
             elif action == 4:
-                return True
+                self.task_set("-")
+            elif action == 5:
+                self.task_set("*")
+            elif action == 6:
+                return "close"
             else:
                 print("Syöttämäsi luku on virheellinen")
         except:
@@ -82,19 +88,21 @@ class MathGenerator():
         print("Matematiikan tehtäväsovellus")
         print("-------------------------------------")
         print("Toiminnot:")
-        print("1: Yhteenlaskut")
-        print("2: Erotukset")
-        print("3: Kertolaskut")
-        print("4: Sulje")
-
+        print("1: Kirjaudu sisään")
+        print("2: Luo uusi käyttäjä")
+        print("3: Yhteenlaskut")
+        print("4: Erotukset")
+        print("5: Kertolaskut")
+        print("6: Sulje")
+    
 
 if __name__ == "__main__":
-    generator = MathGenerator()
+    Generator = MathGenerator()
 
     while True:
-        generator.show_actions()
-        action = generator.select_action()
-        if action == True:
+        Generator.show_actions()
+        action = Generator.select_action()
+        if action == "close":
             break
 
 
