@@ -156,13 +156,6 @@ class UserRepository:
         with open(self._file_path, "w") as file:
             file.write(newtext+'\n')
 
-    def delete_all_users(self):
-        """Tyhjentää tiedoston johon käyttäjiä lisätään
-
-        """
-
-        with open(self._file_path, "w") as file:
-            file.write("")
 
 
 user_repository = UserRepository(USERS_FILE_PATH)

@@ -5,7 +5,6 @@ from repositories.user_repository import user_repository
 class TestMathgenerator(unittest.TestCase):
     def setUp(self):
         self.generator = MathGenerator()
-        self.generator._user_repository.delete_all_users()
 
     def test_check_answer(self):
         task = self.generator.gen_addition_task()

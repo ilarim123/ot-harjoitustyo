@@ -4,7 +4,6 @@ from repositories.user_repository import user_repository
 
 class TestUserRepository(unittest.TestCase):
     def setUp(self):
-        user_repository.delete_all_users()
         self.testusername = "Tester"
         self.testpassword = "abc123"
         user_repository.create_user(self.testusername, self.testpassword)
@@ -30,12 +29,6 @@ class TestUserRepository(unittest.TestCase):
         value = user_repository.check_completion(self.testusername, "add")
 
         self.assertEqual(value, True)
-    
-    def test_delete_all_users(self):
-        user_repository.delete_all_users()
-        value = user_repository.does_user_exist(self.testusername)
-
-        self.assertEqual(value, False)
     
     def test_mark_as_completed(self):
         user_repository.mark_as_completed(self.testusername, "sub")
