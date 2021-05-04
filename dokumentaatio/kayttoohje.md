@@ -16,7 +16,7 @@ poetry run invoke start
 
 ## Valikon käyttäminen
 
-Tämänhetkisessä sovelluksen versiossa on tekstikäyttöliittymä, ja valikko tulostuu terminaaliin.
+Tämänhetkisessä sovelluksen versiossa on tekstikäyttöliittymä, ja valikko tulostuu komentoriville.
 
 Valikossa on eri vaihtoehtoja, joista jokaisella on oma numero. Haluttu toiminto valitaan syöttämällä toiminnon vieressä oleva numero ja painamalla enteriä.
 Ennen sisäänkirjautumista valikossa on vaihtoehdot:
