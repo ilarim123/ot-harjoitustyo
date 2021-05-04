@@ -6,6 +6,8 @@ Sovelluksen testien haarautumakattavuus on valitettavasti vielä alhainen, eikä
 
 ##  Dokumentaatio
 
+[Käyttöohje](https://github.com/ilrm123/ot-harjoitustyo/blob/master/dokumentaatio/kayttoohje.md)
+
 [Vaatimusmäärittely](https://github.com/ilrm123/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md)
 
 [Työaikakirjanpito](https://github.com/ilrm123/ot-harjoitustyo/blob/master/dokumentaatio/tuntikirjanpito.md)
