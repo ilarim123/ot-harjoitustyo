@@ -21,18 +21,18 @@ Tämänhetkisessä sovelluksen versiossa on tekstikäyttöliittymä, ja valikko 
 Valikossa on eri vaihtoehtoja, joista jokaisella on oma numero. Haluttu toiminto valitaan syöttämällä toiminnon vieressä oleva numero ja painamalla enteriä.
 Ennen sisäänkirjautumista valikossa on vaihtoehdot:
 
-1. Kirjaudu sisään
-2. Luo uusi käyttäjä
-0. Sulje
+1 - Kirjaudu sisään
+2 - Luo uusi käyttäjä
+0 - Sulje
 
 Kirjautumisen jälkeen näkymä on:
 
-1. Kirjaudu ulos
-2. Luo uusi käyttäjä
-3. Yhteenlaskut
-4. Erotukset
-5. Kertolaskut
-0. Sulje
+1 - Kirjaudu ulos
+2 - Luo uusi käyttäjä
+3 - Yhteenlaskut
+4 - Erotukset
+5 - Kertolaskut
+0 - Sulje
 
 Toiminnot 3-5 ovat siis sovelluksen kolme tehtäväsarjaa, joissa on jokaisessa viisi satunnaisesti luotua melko helppoa laskua.
 Kun tehtäväsarja on valittu, terminaaliin ilmestyy jokin lauseke (esim. 24+83). Käyttäjän tulee seuraavaksi syöttää lausekkeen vastaus kokonaislukuna.
