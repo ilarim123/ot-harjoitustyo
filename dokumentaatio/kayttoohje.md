@@ -36,7 +36,7 @@ Kirjautumisen jälkeen näkymä on:
 
 Toiminnot 3-5 ovat siis sovelluksen kolme tehtäväsarjaa, joissa on jokaisessa viisi satunnaisesti luotua melko helppoa laskua.
 Kun tehtäväsarja on valittu, terminaaliin ilmestyy jokin lauseke (esim. 24+83). Käyttäjän tulee seuraavaksi syöttää lausekkeen vastaus kokonaislukuna.
-Vastaus tulkitaan vääräksi, jos se on väärin tai syöte on virheellinen (esim. merkkijono). Vastausta ei myöskään voi muuttaa backspace-napilla, joten vastauksen syöttämisen kanssa tulee olla tarkka.
+Vastaus tulkitaan vääräksi, jos se on väärin tai syöte on virheellinen (esim. merkkijono).
 Kun vastaa kerralla kaikki viisi kysymystä oikein, niin valikossa näkyy että kyseinen tehtäväsarja on nyt suoritettu.
 Kun kaikki tehtäväsarjat ovat suoritettu, niin on tehty kaikki mitä sovelluksessa voi tehdä.
 
