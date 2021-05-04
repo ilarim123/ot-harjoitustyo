@@ -1,10 +1,8 @@
 # Matematiikan tehtäväsovellus
 
-Sovelluksessa ratkaistaan yksinkertaisia matemaattisia tehtäviä. Tällä hetkellä sovelluksessa on mahdollista valita kolmesta tehtäväsarjasta yksi jonka tehtäviä ratkaisee. Sovelluksessa voi myös luoda uuden käyttäjän sekä kirjautua sisään ja kirjautua ulos, mutta sisäänkirjautuminen vaikuttaa toistaiseksi vain tulostettuun tekstiin eikä sillä ole mitään erikoista toiminnallisuutta. 
+Sovelluksessa ratkaistaan yksinkertaisia matemaattisia tehtäviä. Tällä hetkellä sovelluksessa on kaikki vaatimusmäärittelyn mainitsemat ominaisuudet graafista käyttöliittymää lukuunottamatta.  
 
-Sovelluksesta puuttuu vielä mahdollisuus kerätä käyttäjäkohtaisia pisteitä tehtävistä ja saada tehdyistä tehtäväsarjoista suoritusmerkintä. Tarkoituksena olisi myös luoda graafinen käyttöliittymä sekä mahdollisesti jotain muita toiminnallisuuksia. 
-
-Sovelluksen testien haarautumakattavuus on vielä tämänhetkisiä vaatimuksia alhaisempi, ja arkkitehtuurikuvausta ei vielä ole.
+Sovelluksen testien haarautumakattavuus on valitettavasti vielä alhainen, eikä arkkitehtuurikuvausta vielä ole.
 
 ##  Dokumentaatio
 
@@ -14,7 +12,15 @@ Sovelluksen testien haarautumakattavuus on vielä tämänhetkisiä vaatimuksia a
 
 [Arkkitehtuurikuvaus](https://github.com/ilrm123/ot-harjoitustyo/blob/master/dokumentaatio/arkkitehtuuri.md)
 
+[Uusin release]()
+
 ## Komentorivitoiminnot
+
+Riippuvuudet asennetaan komennolla:
+
+```bash
+poetry install
+```
 
 Ohjelma suoritetaan komennolla:
 
