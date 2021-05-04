@@ -14,7 +14,9 @@ Sovelluksen testien haarautumakattavuus on valitettavasti vielä alhainen, eikä
 
 [Arkkitehtuurikuvaus](https://github.com/ilrm123/ot-harjoitustyo/blob/master/dokumentaatio/arkkitehtuuri.md)
 
-[Uusin release]()
+[Ensimmäinen release](https://github.com/ilrm123/ot-harjoitustyo/releases/tag/viikko5)
+
+[Toinen release](https://github.com/ilrm123/ot-harjoitustyo/releases/tag/viikko6)
 
 ## Komentorivitoiminnot
 
