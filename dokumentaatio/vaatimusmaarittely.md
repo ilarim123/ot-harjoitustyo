@@ -7,7 +7,7 @@ Sovelluksella on vain yksi käyttäjärooli eli tavallinen käyttäjä.
 
 
 # Suunnitellut toiminnallisuudet
-- Graafinen käyttöliittymä
+- Graafinen käyttöliittymä JÄI TEKEMÄTTÄ
 - Käyttäjä voi rekisteröityä ja luoda itselleen salasanan TEHTY
 - Käyttäjä näkee eri tehtäväsarjoja joista voi valita mieluisan TEHTY
 - Kun kaikki tehtäväsarjan tehtävät on tehty, niin käyttäjä saa siitä suoritusmerkinnän TEHTY

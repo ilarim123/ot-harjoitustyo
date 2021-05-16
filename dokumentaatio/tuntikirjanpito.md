@@ -10,5 +10,6 @@
 | 27.4. | 6      | törmäsin ongelmiin tietokannan kanssa joten toteutinkin kirjautumisen .csv-tiedoston avulla |
 |  3.5. | 5      | lisäsin tehtäviin suoritusmahdollisuuden |
 |  4.5. | 4      | laajensin testausta ja aloitin tekemään docstringiä ja päivittämään dokumentaatiota |
+| 16.5. | 2      | joitain viimeistelyjä |
 
-arvioitu aika yhteensä: 31h
+arvioitu aika yhteensä: 33h
