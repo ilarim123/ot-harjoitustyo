@@ -1,8 +1,8 @@
 # Matematiikan tehtäväsovellus
 
-Sovelluksessa ratkaistaan yksinkertaisia matemaattisia tehtäviä. Tällä hetkellä sovelluksessa on kaikki vaatimusmäärittelyn mainitsemat ominaisuudet graafista käyttöliittymää lukuunottamatta.  
+Sovelluksessa ratkaistaan yksinkertaisia matemaattisia tehtäviä. Lopullisessa sovelluksessa on kaikki vaatimusmäärittelyn mainitsemat ominaisuudet graafista käyttöliittymää lukuunottamatta.  
 
-Sovelluksen testien haarautumakattavuus on valitettavasti vielä alhainen, eikä arkkitehtuurikuvausta vielä ole.
+Sovelluksen testien haarautumakattavuus on valitettavasti alhainen, eikä arkkitehtuurikuvausta tai testausdokumenttia ole.
 
 ##  Dokumentaatio
 
@@ -12,37 +12,41 @@ Sovelluksen testien haarautumakattavuus on valitettavasti vielä alhainen, eikä
 
 [Työaikakirjanpito](https://github.com/ilrm123/ot-harjoitustyo/blob/master/dokumentaatio/tuntikirjanpito.md)
 
-[Arkkitehtuurikuvaus](https://github.com/ilrm123/ot-harjoitustyo/blob/master/dokumentaatio/arkkitehtuuri.md)
+~~Arkkitehtuurikuvaus~~ Ei ole
+
+ ~~Testausdokumentti~~ Ei ole
 
 [Ensimmäinen release](https://github.com/ilrm123/ot-harjoitustyo/releases/tag/viikko5)
 
 [Toinen release](https://github.com/ilrm123/ot-harjoitustyo/releases/tag/viikko6)
 
+[Lopullinen release](https://github.com/ilrm123/ot-harjoitustyo/releases/tag/viikko7)
+
 ## Komentorivitoiminnot
 
 Riippuvuudet asennetaan komennolla:
 
-```bash
+```
 poetry install
 ```
 
 Ohjelma suoritetaan komennolla:
 
-```bash
+```
 poetry run invoke start
 ```
 
 Ohjelman testit suoritetaan komennolla:
-```bash
+```
 poetry run invoke test
 ```
 
 Ohjelman testikattavuusraportti generoidaan komennolla:
-```bash
+```
 poetry run invoke coverage-report
 ```
 
 Pylint-tarkistukset suoritetaan komennolla:
-```bash
+```
 poetry run invoke lint
 ```
